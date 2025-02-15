@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heritage Sites in Mysore</title>
+    <link rel="stylesheet" href="all.css">
+<style>
+body {
+    background-color: rgb(255, 239, 219);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a:hover{
+    color:orange;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+main {
+    padding: 20px;
+}
+
+.heritage{
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.heritage li{
+    margin: 10px 0;
+}
+
+.heritage li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.heritage li img {
+    width: 500px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 8px;
+    justify-content: space-around;
+}
+
+.heritage li img:hover{
+    width: 600px;
+    height: auto;
+}
+
+.heritage li a div {
+    position: relative;
+    display: inline-block;
+}
+
+.heritage li a div .caption {
+    position: absolute;
+    bottom: 10px;
+    right:0;
+    left: 0;
+    width: 98%;
+    text-align: center;
+    background: rgba(0, 0, 0,0.6);
+    color: white;
+    padding: 5px 0;
+    opacity: 0;
+    transition: opacity 0.3s ;
+    border-radius: 8px;
+}
+
+.heritage li a div:hover .caption {
+    opacity: 1;
+}
+</style>
+
+</head>
+<body>
+    <header>
+        <h1>Heritage Sites in Mysore</h1>
+        <nav>
+            <ul>
+                <li><a href="hm.html">Home</a></li>
+                <li><a href="hr.html">Heritage</a></li>
+                <li><a href="rg.html">Hotel Booking</a></li>
+                <li><a href="gl.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <ul class="heritage">
+            <li>
+                <a href="mysore_palace.html">
+                    <div class="image-pair">
+                        <img src="mysore palace.webp" alt="Mysore Palace">
+                        <div class="caption">Mysore Palace</div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="zoo.html">
+                    <div class="image-pair">
+                        <img src="zoo.webp" alt="Mysore Zoo">
+                        <div class="caption">Mysore Zoo</div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="gardens.html">
+                    <div class="image-pair">
+                        <img src="brin gardens.webp" alt="Brindavan Gardens">
+                        <div class="caption">Brindavan Gardens</div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="church.html">
+                    <div class="image-pair">
+                        <img src="St_Philomena_Cathedral.webp" alt="St. Philomena's Church">
+                        <div class="caption">St. Philomena's Church</div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="jp.html">
+                    <div class="image-pair">
+                        <img src="jagmohan pslsce.webp" alt="Jaganmohan Palace">
+                        <div class="caption">Jaganmohan Palace</div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="museum.html">
+                    <div class="image-pair">
+                        <img src="folklore museum.webp" alt="Folklore Museum">
+                        <div class="caption">Folklore Museum</div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </main>
+</body>
+</html>

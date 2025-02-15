@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mysore Tourism</title>
+    <link rel="stylesheet" href="all.css">
+<style>
+body {
+    background-color: rgb(255, 239, 219);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a:hover{
+    color:orange;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.slideshow {
+    float: right;
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slideshow img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    animation: slide 12s infinite;
+}
+
+.slideshow img:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.slideshow img:nth-child(2) {
+    animation-delay: 4s;
+}
+
+.slideshow img:nth-child(3) {
+    animation-delay: 8s;
+}
+
+@keyframes slide {
+    0% { opacity: 0; }
+    10% { opacity: 1; }
+    33.33% { opacity: 1; }
+    43.33% { opacity: 0; }
+    100% { opacity: 0; }
+}
+</style>
+
+</head>
+<body>
+    <header>
+        <h1>Welcome to Mysore</h1>
+        <nav>
+            <ul>
+                <li><a href="hm.html">Home</a></li>
+                <li><a href="hr.html">Heritage</a></li>
+                <li><a href="rg.html">Hotel Booking</a></li>
+                <li><a href="gl.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="slideshow">
+            <img src="mysore palace.webp">
+            <img src="brin gardens.webp">
+            <img src="zoo.webp">
+            <img src="gl3.jpg">
+            <img src="St_Philomena_Cathedral.webp">
+            <img src="gl4.jpg">
+            <img src="lake.webp">
+        </div>
+
+        <h2>Mysore, located in the southern state of Karnataka, India, is known as the "Cultural Capital of Karnataka." It is renowned for its rich heritage, majestic palaces, and vibrant traditions. The city is famous for the Mysore Palace, a magnificent example of Indo-Saracenic architecture that lights up spectacularly during festivals. Mysore is also celebrated for the Dasara festival, a grand 10-day event showcasing cultural performances, processions, and traditions.</h2>
+        <br>
+        <h2>Discover the rich heritage and culture of Mysore. Explore historical sites, book your stay, 
+            and enjoy the beauty of this magnificent city.</h2>
+        
+        
+    
+    </main>
+</body>
+</html>
